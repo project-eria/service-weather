@@ -5,6 +5,10 @@ on:
     tags:
       - "v*"
 
+# New repositories get a read-only GITHUB_TOKEN: GoReleaser must create the release
+permissions:
+  contents: write
+
 jobs:
   GoReleaser:
     uses: project-eria/workflows/.github/workflows/release.yml@main
