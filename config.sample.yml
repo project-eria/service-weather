@@ -1,0 +1,6 @@
+host: 127.0.0.1 # thing host (default to all IPs)
+port: 8102 # thing port (default 80, forbidden without root)
+location: Europe/Paris
+lat: <latitude for house>
+long: <longitude for house>
+rate: 900 # seconds between updates (Open-Meteo refreshes every 15 min)
