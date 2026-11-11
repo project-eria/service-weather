@@ -3,7 +3,7 @@ module service-weather
 go 1.26.0
 
 require (
-	github.com/project-eria/eria-core v1.16.0
+	github.com/project-eria/eria-core v1.21.0
 	github.com/rs/zerolog v1.35.1
 )
 
@@ -24,7 +24,7 @@ require (
 	github.com/mattn/go-runewidth v0.0.30 // indirect
 	github.com/miekg/dns v1.1.73 // indirect
 	github.com/molecule-man/go-brrr v1.1.1 // indirect
-	github.com/project-eria/go-wot v1.8.0 // indirect
+	github.com/project-eria/go-wot v1.14.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/savsgio/gotils v0.0.0-20250924091648-bce9a52d7761 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
