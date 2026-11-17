@@ -3,7 +3,7 @@ module service-weather
 go 1.26.0
 
 require (
-	github.com/project-eria/eria-core v1.23.3
+	github.com/project-eria/eria-core v1.23.4
 	github.com/rs/zerolog v1.35.1
 )
 
